@@ -1,0 +1,8 @@
+{
+    "name": "3D Primitives",
+    "author": "Diego Prado Gesto",
+    "version": "0.0.1",
+    "description": "List of 3D model primitives that the user can load into the build plate with one click.",
+    "supported_sdk_versions": ["6.0.0"],
+    "i18n-catalog": "cura"
+}
