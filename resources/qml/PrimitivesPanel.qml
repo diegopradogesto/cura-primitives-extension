@@ -11,10 +11,10 @@ UM.Dialog
 
     title: "3D Primitives"
 
-    Rectangle
+    Cura.PrimaryButton
     {
-        width: 100
-        height: 100
-        color: "green"
+        text: "Add cube"
+        iconSource: UM.Theme.getIcon("plus")
+        onClicked: manager.createMesh("cube")
     }
 }
